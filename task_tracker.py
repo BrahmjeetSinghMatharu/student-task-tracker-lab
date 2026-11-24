@@ -9,7 +9,7 @@ DATA_FILE = Path(__file__).with_name('tasks.json')
 
 def get_heading():
     """Both Git feature branches will deliberately edit this line."""
-    return 'Student Task Tracker'
+    return 'Assignment Deadline Tracker'
 
 
 def load_tasks(path=DATA_FILE):
